@@ -16,8 +16,9 @@ with open('config.yaml', 'r') as f:
 
 
 def get_token():
-    response = requests.post(url=conf['url'], data={
-        'user_name': conf['user_name'], 'password': conf['password']})
+    response = requests.post(url=conf['url'],
+                             data={'username': conf['username'], 'password': conf['password']})
+    print(response.json())
     return response.json()['token']
 
 
@@ -28,6 +29,22 @@ def get(token: str):
     return response.json()
 
 
+def create_new_post(token: str):
+    response = requests.post(url=conf['url_posts'],
+                             headers={"X-Auth-Token": token},
+                             params={"title": conf["title"], "description": conf["description"],
+                                     "content": conf["content"]})
+    return response.json()
+
+
+def get_new_post(token: str):
+    response = requests.get(conf["url_posts"],
+                            headers={"X-Auth-Token": token},
+                            params={"description": conf["description"]})
+    return response.json()
+
+
 if __name__ == '__main__':
     temp = get_token()
-    print(get(temp))
+    # print(get(temp))
+    print(create_new_post(temp))
