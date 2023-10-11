@@ -1,0 +1,4 @@
+address: https://test-stand.gb.ru
+driver_path: chromedriver
+#driver_path: geckodriver
+sleep_time: 5
