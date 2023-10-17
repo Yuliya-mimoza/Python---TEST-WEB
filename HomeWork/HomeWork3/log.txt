@@ -1,10 +1,11 @@
-2023-10-16 18:21:44 INFO Test1 Starting
-2023-10-16 18:21:45 INFO Send YuliyaSha2023 to element button
-2023-10-16 18:21:45 INFO Send 9c41b200e5 to element //*[@id='login']/div[2]/label/input
-2023-10-16 18:21:45 INFO Click login button
-2023-10-16 18:21:45 INFO Click contact linck
-2023-10-16 18:21:46 INFO Send YuliyaSha to element //*[@id="contact"]/div[1]/label/input
-2023-10-16 18:21:47 INFO Send m.i.m.o.z.a@mail.ru to element //*[@id="contact"]/div[2]/label/input
-2023-10-16 18:21:47 INFO Send OK to element //*[@id="contact"]/div[3]/label/span/textarea
-2023-10-16 18:21:47 INFO Click contact_us button
-2023-10-16 18:21:47 INFO Get text in alert
+2023-10-17 12:03:53 INFO Test1 Starting
+2023-10-17 12:03:54 INFO Send YuliyaSha2023 to element button
+2023-10-17 12:03:54 INFO Send 9c41b200e5 to element //*[@id='login']/div[2]/label/input
+2023-10-17 12:03:54 INFO Click login button
+2023-10-17 12:03:54 INFO Click contact linck
+2023-10-17 12:03:56 INFO Send YuliyaSha to element //*[@id="contact"]/div[1]/label/input
+2023-10-17 12:03:56 INFO Send m.i.m.o.z.a@mail.ru to element //*[@id="contact"]/div[2]/label/input
+2023-10-17 12:03:56 INFO Send OK to element //*[@id="contact"]/div[3]/label/span/textarea
+2023-10-17 12:03:56 INFO Click contact_us button
+2023-10-17 12:04:00 INFO Get text in alert
+2023-10-17 12:04:00 INFO Form successfully submitted

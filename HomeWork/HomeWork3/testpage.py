@@ -66,6 +66,6 @@ class OperationsHelper(BasePage):
 
     def get_text_in_alert(self):
         logging.info("Get text in alert")
-        alert = self.driver.switch_to.alert
-        return alert.text
-
+        text = self.get_alert_text()
+        logging.info(text)
+        return text
