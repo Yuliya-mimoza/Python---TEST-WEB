@@ -1,3 +1,5 @@
+import time
+
 from testpage import OperationsHelper
 import logging, yaml
 
@@ -17,6 +19,7 @@ def test_step1(browser):
     testpage.enter_email(testdata["email"])
     testpage.enter_content(testdata["content"])
     testpage.click_contact_us_button()
+    time.sleep(3)
     assert testpage.get_text_in_alert() == "Form successfully submitted"
 
 # def step_1(browser):
