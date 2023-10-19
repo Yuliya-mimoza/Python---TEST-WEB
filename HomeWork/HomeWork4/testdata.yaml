@@ -1,0 +1,11 @@
+address: https://test-stand.gb.ru
+driver_path: chromedriver
+browser: chrome
+#browser: firefoxe
+#driver_path: geckodriver
+sleep_time: 2
+login: YuliyaSha2023
+pass: 9c41b200e5
+name: YuliyaSha
+email: m.i.m.o.z.a@mail.ru
+content: OK
